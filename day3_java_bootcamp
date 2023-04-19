@@ -1,0 +1,20 @@
+// Write a Java program that takes a user's age as input and determines if they are old enough to vote in a national election
+
+
+    public class Assignment {
+      public static void main(String []args){
+       Scanner sc = new Scanner(System.in);   // create a scanner object
+       int age = nextInt();    // read the user input
+       int age = 19; 
+      
+        System.out.println("Please enter your age : ");
+        // applying the condition
+        if (age >= 18) {
+            System.out.println("You are eligible to vote! ");
+            
+        }
+    else{
+        System.out.println("You are not eligible to vote ");
+    }
+     }
+}
